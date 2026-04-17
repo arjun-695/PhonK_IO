@@ -17,7 +17,7 @@ export interface Product {
         storage: string;
     };
     colorOptions: string[];     //hex codes
-    instock: boolean;
+    inStock: boolean;
     featured: boolean;
     image: string; // path to product image
     rating: number;
